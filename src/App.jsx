@@ -10,10 +10,12 @@ import { BecomeMember } from "./components/BecomeMember"
 import { Footer } from "./components/Footer"
 // import { InstructorCard } from "./components/InstructorCard"
 import { InstructorCards } from "./components/instructorCards/InstructorCards"
+import { Test } from "./components/Test"
 
 export const App = () => {
   return (
     <>
+    <Test />
       <HeroSection />
       <Statistics />
       <AboutUs />
